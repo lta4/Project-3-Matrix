@@ -38,3 +38,24 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | Additional Styling | H | 3hr | hr |
 | Project Review | H | 3hr | hr |
 | Total | H | 21hrs| hrs |
+
+#### Routing Table
+
+| URL | HTTP VERB | Action | Description |
+| --- | :---: |  :---: | :---: | 
+| / | Get | seed | insert data into MongoDB |
+| / | Get | index | get all PC's |
+| / | Get | show | get a single PC |
+| / | Put | update | update a single PC |
+| / | Post | create | create a new PC |
+| / | Delete | destroy | destroy a single PC |
+
+#### Users Table
+
+| URL | HTTP VERB | Action | Description |
+| --- | :---: |  :---: | :---: | 
+| / | Get | index | get all users |
+| / | Get | show | get a single user |
+| / | Put | update | update a single user |
+| / | Post | create | create a new user |
+| / | Delete | destroy | destroy a single user |
